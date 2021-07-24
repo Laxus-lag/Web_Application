@@ -3,6 +3,7 @@ import Todo from "./Todo";
 
 function List({todo, setInput, filterTodos,textInput,Input}){
 	console.log(todo);
+	
 	return (
 	
 	<div className="todo-container">

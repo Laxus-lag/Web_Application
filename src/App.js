@@ -45,9 +45,17 @@ function App() {
 
   return (
     <div className="App">
-    
-    <Form status={status} setStatus={setStatus} textInput ={textInput} Input={Input} todo={todo} setInput={setInput}/>
-    <Lists todo={todo} setInput={setInput} filterTodos={filterTodos} setFilterTodos ={setFilterTodos} textInput ={textInput} Input={Input}/>
+      <Form
+        status={status}
+        setStatus={setStatus}
+        textInput={textInput}
+        Input={Input}
+        todo={todo}
+        setInput={setInput}
+        filterTodos={filterTodos}
+        setFilterTodos={setFilterTodos}
+      />
+      
     </div>
   );
 }
